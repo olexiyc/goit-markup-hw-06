@@ -573,8 +573,8 @@ transition: 0.2s;
 }
 .contact-form-modal{
     box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border: 1px solid rgba(33, 33, 33, 0.2);
+
 border-radius: 4px;
 margin-left: 24px;
 height: 40px;
@@ -601,10 +601,11 @@ left: 0px;
 top: 216px;
 resize: none;
 box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border: 1px solid rgba(33, 33, 33, 0.2);
+
 border-radius: 4px;
 margin-left: 24px;
+padding: 8px 16px;
 }
 
 .checkbox-text{
@@ -629,6 +630,7 @@ flex-grow: 0;
 
 .contact-form-checkbox{
     margin-right: 5px;
+    border: 1px solid #2E2F42;
 }
 
 .contact-form-fieldset{
@@ -645,15 +647,31 @@ flex-grow: 0;
     margin-top: 16px;}
 
 .form-icon{
-    height: 12px;
-    width: 12px;
+    height: 13px;
+    width: 13px;
     position: absolute;
     left: 43px;
-    margin-top: 14px;
+    margin-top: 16px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+
+.person-icon{
+    height: 12px;
+    width: 12px;
+}
+
+.phone-icon{
+    height: 13px;
+    width: 13px;
+}
+
+.email-icon{
+    height: 12px;
+    width: 15px;
+}
+
 .text-form{
     font-family: 'Roboto';
 font-style: normal;
@@ -686,7 +704,7 @@ margin-left: 24px;
     /* NAVY BLUE */
     
     color: #2E2F42;
-
+    
     margin-top: 72px;
     margin-left: 24px;
     margin-right: 24px;
@@ -776,7 +794,7 @@ color: #FFFFFF;
 .sub-button-icon {
     width: 24px;
     height: 24px;
-    
+    margin-left: 10px;
 }
 
 .contact-form-input{
@@ -787,13 +805,14 @@ color: #FFFFFF;
     background-color: #2E2F42;
     height: 40px;
     width: 260px;
+    padding-left: 16px;
     
 
 }
 .contact-form-btn{
     background: #4D5AE5;
     color: #FFFFFF;
-    gap: 16px;
+    
     border-radius: 4px;
     letter-spacing: 0.06em;
     line-height: 1.5;
@@ -801,11 +820,10 @@ color: #FFFFFF;
     height: 40px;
     width: 168px;
     border: none;
-    padding: 8px 24px;
-    justify-content: center;
-    align-items: center;
+    
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    margin-left: 24px;
 }
 .contact-form-btn:hover{   
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
