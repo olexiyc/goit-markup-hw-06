@@ -348,7 +348,8 @@
                 <p class="contact-subscribe">Subscribe<p>
                 <input class="contact-form-input" type="Email" name="Email" placeholder="E-mail">
             </label>
-            <button class="contact-form-btn" type="Subscribe">Subscribe
+            <button class="contact-form-btn" type="Subscribe">
+                Subscribe
                 <svg class="sub-button-icon">
                     <use href="./images/sprite.svg#icon-icon-send"></use>
                   </svg>
@@ -408,10 +409,14 @@
                         
                     </label>
                     </div>
-                    <div class="contact-form-fieldset">
-                        <input type="checkbox" class="contact-form-checkbox">
-                        <p class="checkbox-text">I accept the terms and conditions of the <a href="#">Privacy Policy</a></p>
-                    </div>
+                    <label class="contact-form-fieldset">
+                        <input 
+                        type="checkbox" 
+                        class="checkbox-hidden"
+                        name="policy-accept-checkbox">
+                        <span class="checkbox"></span>
+                        <p class="checkbox-text">I accept the terms and conditions of the <a class="policy-link" href="#">Privacy Policy</a></p>
+                    </label>
                     <button class="send">Send</button>
                 </form>
               <button type="button" class="button-close" data-modal-close>
