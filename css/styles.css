@@ -576,7 +576,7 @@ transition: 0.2s;
     border: 1px solid rgba(33, 33, 33, 0.2);
 
 border-radius: 4px;
-
+padding-left: 34px;
 height: 40px;
 width: 360px;
 margin-top: 4px;
@@ -779,12 +779,16 @@ color: #8E8F99;
 }
 
 
-
+.subscription {
+    margin-left: 80px;
+    flex-direction:column;
+    gap: 16px;}
 
 .contact-form{
     display: flex;
+    
     height: 80px;
-    margin-left: 80px;
+    
     
 }
 .contact-subscribe{
@@ -803,8 +807,10 @@ color: #FFFFFF;
 
 .sub-button-icon {
     width: 24px;
-    height: 24px;
-    margin-left: 10px;
+    height: 20px;
+    
+   
+
 }
 
 .contact-form-input{
@@ -821,13 +827,23 @@ color: #FFFFFF;
     
 
 }
+
+
+    
+
 .contact-form-btn{
     background: #4D5AE5;
     color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    
+    
     padding: 8px 24px;
+    gap: 16px;
+    display: flex;
     border-radius: 4px;
     letter-spacing: 0.06em;
     line-height: 1.5;
@@ -875,7 +891,7 @@ color: #FFFFFF;
   
   .checkbox-hidden:checked + .checkbox {
     background-color: #4D5AE5;
-    background-image: url(../images/symbol-defs.svg#icon-Vector-8);
+    background-image: url(../images/icons.svg/check.svg);
     background-position: center;
     background-repeat: no-repeat;
   }
